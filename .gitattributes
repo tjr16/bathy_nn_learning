@@ -1,0 +1,2 @@
+*.xyz filter=lfs diff=lfs merge=lfs -text
+*.cereal filter=lfs diff=lfs merge=lfs -text

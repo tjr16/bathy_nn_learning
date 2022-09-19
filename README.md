@@ -18,8 +18,12 @@ Recommended for baseline: PCL 1.10 or its [python binding](https://github.com/li
 ## Usage
 
 Step 1: Run `scripts/parse_cereal.py` to parse cereal data.
-Step 2.1 - 2.3: Run other scripts in `scripts` to create datasets.
-Step 3: Run `train.py` and `test.py` to train and test models.
+
+Step 2.1 - 2.3: Run other scripts in `scripts/` to create datasets.
+
+Step 3: Run `train.py` to train a model. (Modify `param.py` properly.)
+
+Step 4: Run scripts in `test/` to evaluate the model.
 
     .
     ├── data               # datasets
@@ -32,11 +36,11 @@ Step 3: Run `train.py` and `test.py` to train and test models.
     │       └── ...
     ├── scripts     # scripts for data processing
     ├── utils       # utility functions 
+    ├── test        # testing scripts
     ├── models.py   # model implementation
     ├── dataset.py  # dataset implementation
-    ├── train.py    # training script
-    ├── test.py     # testing script
-    └── param.py    # parameters and configurations
+    ├── param.py    # parameters and configurations
+    └── train.py    # training script
 
 ## Acknowledgment
 

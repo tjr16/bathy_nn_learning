@@ -42,6 +42,17 @@ Step 4: Run scripts in `test/` to evaluate the model.
     ├── param.py    # parameters and configurations
     └── train.py    # training script
 
+## Citation
+
+If you find our work useful, please consider citing:
+
+    @article{tan2022data,
+      title={Data-driven Loop Closure Detection in Bathymetric Point Clouds for Underwater SLAM},
+      author={Tan, Jiarui and Torroba, Ignacio and Xie, Yiping and Folkesson, John},
+      journal={arXiv preprint arXiv:2209.08578},
+      year={2022}
+    }
+        
 ## Acknowledgment
 
 Part of the code is based on some examples in [PyTorch Geometric](

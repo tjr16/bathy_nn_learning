@@ -9,7 +9,11 @@ This repository is intended for loop closure detection and feature matching in t
 * Python 3.8
 * PyTorch 1.10
 * PyTorch Geometric 2.0
-* opencv, wandb, shapely, open3d, [AUVLib](https://github.com/nilsbore/auvlib)
+* opencv, wandb, shapely, open3d, [AUVLib (original repo)](https://github.com/nilsbore/auvlib)
+
+Install the June 2022 version of AUVLib here:
+    
+    git clone -b extended_bm git@github.com:ignaciotb/auvlib.git
 
 For details, please refer to `requirements.txt` (for pip) or `environment.yml` (for conda).
 

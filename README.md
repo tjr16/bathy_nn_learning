@@ -19,6 +19,11 @@ For details, please refer to `requirements.txt` (for pip) or `environment.yml` (
 
 Recommended for baseline: PCL 1.10 or its [python binding](https://github.com/lijx10/PCLKeypoints)
 
+## Data
+
+Datasets are available for download here [datasets](https://drive.google.com/drive/folders/1UWxJw6cNCvzowqWpzo5eSEUT_0734tsG?usp=sharing)
+
+
 ## Usage
 
 Step 1: Run `scripts/parse_cereal.py` to parse cereal data.
@@ -50,12 +55,14 @@ Step 4: Run scripts in `test/` to evaluate the model.
 
 If you find our work useful, please consider citing:
 
-    @article{tan2022data,
-      title={Data-driven Loop Closure Detection in Bathymetric Point Clouds for Underwater SLAM},
-      author={Tan, Jiarui and Torroba, Ignacio and Xie, Yiping and Folkesson, John},
-      journal={arXiv preprint arXiv:2209.08578},
-      year={2022}
-    }
+    @inproceedings{tan2023data,
+        title={Data-driven loop closure detection in bathymetric point clouds for underwater {SLAM}},
+        author={Tan, Jiarui and Torroba, Ignacio and Xie, Yiping and Folkesson, John},
+        booktitle={2023 IEEE International Conference on Robotics and Automation (ICRA)},
+        pages={3131--3137},
+        year={2023},
+        organization={IEEE}
+}
         
 ## Acknowledgment
 
